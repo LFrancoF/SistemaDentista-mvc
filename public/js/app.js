@@ -1,6 +1,6 @@
 $(document).ready( function () {
 
-    const ROOT = "https://localhost/ArquiSoftware/Dentista-mvc/";
+    const ROOT = "https://localhost/Dentista-mvc/";
 
     $('#tablaDatos').DataTable({
         "columnDefs":[{
