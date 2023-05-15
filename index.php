@@ -1,6 +1,6 @@
 <?php
 require_once "autoload.php";
-define("ROOT","https://localhost/ArquiSoftware/Dentista-mvc/");
+define("ROOT","https://localhost/Dentista-mvc/");
 require_once "config/db.php";
 require_once "public/views/layout/header.php";
 
