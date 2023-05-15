@@ -31,7 +31,7 @@ class MNota_venta{
     }
 
     public function getHora(){
-        return $this->fecha;
+        return $this->hora;
     }
 
     public function getObservacion(){

@@ -5,6 +5,7 @@ class MDetalle_venta{
     private $id_producto;
     private $cantidad;
     private $precio;
+    private $db;
 
     public function __construct(){
         $this->db = new Connection();

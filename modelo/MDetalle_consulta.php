@@ -5,6 +5,7 @@ class MDetalle_consulta{
     private $id_servicio;
     private $cantidad;
     private $precio;
+    private $db;
 
     public function __construct(){
         $this->db = new Connection();

@@ -23,10 +23,7 @@ class VNota_venta{
         require_once "public/views/venta/index.php";
     }
 
-    public function getDetalles($id_venta){
-        $detalles = $this->NNota_venta->getDetalles($id_venta);
-        return $detalles;
-    }
+    
 
     public function new(){
         $pacientes = $this->indexPacientes();

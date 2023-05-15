@@ -23,10 +23,7 @@ class VFicha_consulta{
         require_once "public/views/consulta/index.php";
     }
 
-    public function getDetalles($id_consulta){
-        $detalles = $this->NFicha_consulta->getDetalles($id_consulta);
-        return $detalles;
-    }
+    
 
     public function new(){
         $pacientes = $this->indexPacientes();

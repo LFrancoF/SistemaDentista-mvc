@@ -7,3 +7,8 @@
 
     RewriteRule ^(.*)/(.*) index.php?controller=$1&action=$2
 </IfModule>
+<FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
+  <IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+  </IfModule>
+</FilesMatch>
